@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function TempApp() {
 
   const [val, setVal] = useState<string>("Hi, please delete this and enter a value")
 
@@ -18,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default TempApp;
